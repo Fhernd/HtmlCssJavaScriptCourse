@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Week 1 | Peer-graded Assignment: Dating Web Site Assessment</title>
+    <meta charset="utf-8" />
+
+</head>
+<body>
+    <h1>Please Enter Your Details For Our Dating Website!</h1>
+    <form action="http://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Your Face</legend>
+            <label for="image">Your image:</label>
+            <input type="file" id="image" name="image" required /><br />
+            <label for="preview">Image preview:</label>
+            <img id="preview" alt="Your image" hidden>
+        </fieldset>
+        <fieldset>
+            <legend>Your General Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Your full name" required id="name" name="name" /><br />
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male" required><label>Male</label>
+            <input type="radio" name="gender" value="female" required><label>Female</label><br />
+            <label for="age">Age:</label>
+            <input type="number" min="18" max="100" required id="age" name="age"><br />
+            <label for="date">Date of birth:</label>
+            <input type="date" placeholder="dd/mm/yyyy" id="date" name="date"><br />
+            <label for="favoriteColor">Favorite color:</label>
+            <input type="color" id="favoriteColor" name="favoriteColor"><br />
+            <label for="country">Which country</label>
+            <select required id="country" name="country">
+                <option value="nd">No selection</option>
+                <option value="co">Colombia</option>
+                <option value="pe">Perú</option>
+                <option value="ec">Ecuador</option>
+                <option value="ve">Venezuela</option>
+                <option value="br">Brasil</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Your Indicators</legend>
+            <label for="height">Height:</label>
+                <span>Short</span><input type="range" min="0" max="100" id="height" name="height"/><span>Tall</span><br />
+                <label for="salary">Salary:</label>
+                <span>Poor</span><input type="range" min="0" max="100" id="salary" name="salary1" /><span>Rich</span><br />
+        </fieldset>
+        <fieldset>
+            <legend>Your Contact Information</legend>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Email address" required id="email" name="email" /><br />
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile" /><br />
+            <label for="address">Address:</label>
+            <textarea cols="13" rows="5" id="address" name="address"></textarea><br />
+            <label>Method to contact you:</label>
+            <input type="checkbox" name="contactMethods" /><label>Email</label>
+            <input type="checkbox" name="contactMethods" /><label>WhatsApp</label>
+            <input type="checkbox" name="contactMethods" /><label>In-app chat</label><br />
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
