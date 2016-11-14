@@ -74,6 +74,16 @@
     <Content Include="W1\W1S7A1P3-Dating-Web-Site.html" />
     <Content Include="W1\W1S7A1P2-Dating-Web-Site.html" />
     <Content Include="W1\W1S7A1P1-Dating-Web-Site.html" />
+    <Content Include="W2\W2S2C2Ex1-Confirm.html" />
+    <Content Include="W2\W2S3C1Ex1-typeof.html" />
+    <Content Include="W2\W2S3C2Ex1-onload.html" />
+    <Content Include="W2\W2S3C2Ex2-function.html" />
+    <Content Include="W2\W2S3C2Ex3-do-it.html" />
+    <Content Include="W2\W2S4C1Ex1-switch.html" />
+    <Content Include="W2\W2S4C2Ex1-while.html" />
+    <Content Include="W2\W2S5C1Ex1-Global-Variable.html" />
+    <Content Include="W2\W2S5C1Ex2-Local-Variable.html" />
+    <Content Include="W2\W2S9C1A3-Color-Guessing-Game.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
