@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>removeEventListener()</title>
+    <meta charset="utf-8"/>
+</head>
+<body>
+<button id="btn0" onclick="alert('Hello');">Click Me!</button>
+
+<button id="btn1">Remove Listener</button>
+
+<script>
+    function executeTask() {
+        alert("Clicked");
+    }
+    
+    var btn0 = document.getElementById("btn0");
+    btn0.addEventListener("click", executeTask);
+
+    var btn1 = document.getElementById("btn1");
+    btn1.addEventListener("click",
+        function() {
+            btn0.removeEventListener("click", executeTask);
+        });
+</script>
+</body>
+</html>

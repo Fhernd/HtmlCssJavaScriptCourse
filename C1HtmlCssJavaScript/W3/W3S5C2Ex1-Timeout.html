@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timeout</title>
+	<meta charset="utf-8" />
+</head>
+<body onload="setThingsUp();">
+<h1>Alarm clock example</h1>
+
+<script>
+    function setThingsUp() {
+        var waitDuration = prompt("How long do you want to sleep?");
+
+        setTimeout(showWakeupMessage, waitDuration);
+
+        alert("Something is happening...");
+    }
+
+    function showWakeupMessage() {
+        alert("WAKE UP! WAKE UP!, WAKE UP");
+    }
+</script>
+</body>
+</html>

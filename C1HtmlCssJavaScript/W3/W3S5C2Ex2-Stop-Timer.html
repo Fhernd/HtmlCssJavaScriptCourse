@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Clear a Timer</title>
+    <meta charset="utf-8" />
+    <script>
+        var theTimer, xPosition = 0, theImage;
+
+        function doTimer() {
+            theImage = document.getElementById("courseraLogo");
+            xPosition = xPosition + 1;
+            theImage.style.left = xPosition + "px";
+        }
+    </script>
+</head>
+<body onload="theTimer = setInterval(doTimer, 50)">
+    <img src="../img/coursera.png" id="courseraLogo"
+         style="position:absolute; left:0">
+    <button onclick="clearTimeout(theTimer);">
+        Stop!
+    </button>
+</body>
+</html>

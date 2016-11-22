@@ -58,6 +58,7 @@
     <Reference Include="System.EnterpriseServices" />-->
   </ItemGroup>
   <ItemGroup>
+    <Content Include="img\coursera.png" />
     <Content Include="W1\css\W1S4C3Ex1-style.css" />
     <Content Include="W1\css\W1S7A1-Style.css" />
     <Content Include="W1\W1S2C2Ex1-Simple.html" />
@@ -84,6 +85,28 @@
     <Content Include="W2\W2S5C1Ex1-Global-Variable.html" />
     <Content Include="W2\W2S5C1Ex2-Local-Variable.html" />
     <Content Include="W2\W2S9C1A3-Color-Guessing-Game.html" />
+    <Content Include="W3\W3S2C1Ex1-Continents.html" />
+    <Content Include="W3\W3S2C1Ex2-for-in.html" />
+    <Content Include="W3\W3S2C1Ex3-for-of.html" />
+    <Content Include="W3\W3S3C1Ex1-indexOf.html" />
+    <Content Include="W3\W3S3C2Ex1-forEach.html" />
+    <Content Include="W3\W3S3C2Ex2-map.html" />
+    <Content Include="W3\W3S4C2Ex1-Path.js" />
+    <Content Include="W3\W3S4C3Ex1-Methods.js" />
+    <Content Include="W3\W3S4C3Ex2-Adding-Nodes.js" />
+    <Content Include="W3\W3S4C3Ex3-Text-Nodes.js" />
+    <Content Include="W3\W3S4C5Ex1-Deleting.js" />
+    <Content Include="W3\W3S4C6Ex1-Clone-Nodes.js" />
+    <Content Include="W3\W3S5C1Ex1-Mouse-Events.html" />
+    <Content Include="W3\W3S5C2Ex1-Timeout.html" />
+    <Content Include="W3\W3S5C2Ex2-Stop-Timer.html" />
+    <Content Include="W3\W3S5C3Ex1-Adding-Events.html" />
+    <Content Include="W3\W3S5C3Ex2-addEventListener.html" />
+    <Content Include="W3\W3S5C3Ex3-removeEventListener.html" />
+    <Content Include="W3\W3S9C3A3-Smile.png" />
+    <Content Include="W3\W3S9C3A3P4-Mathing-Game.html" />
+    <Content Include="W3\W3S9C3A3P3-Mathing-Game.html" />
+    <Content Include="W3\W3S9C3A3P2-Mathing-Game.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -95,6 +118,7 @@
     <None Include="index.html" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="W3\W3S9C3A3P1-Mathing-Game.html" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
